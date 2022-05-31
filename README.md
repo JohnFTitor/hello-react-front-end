@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+![](https://img.shields.io/static/v1?label=BY&message=JohnFTitor&color=blue)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hello React Frontend
 
-## Available Scripts
+> Simple React frontend for hello rails backend
 
-In the project directory, you can run:
+Important note: MaKe sure your server is running at port 3000, since the CORS set up in the backend only allows that port to be fecth the data from the API
 
-### `npm start`
+## Backend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The backend of the project can be found [here](https://github.com/JohnFTitor/hello-rails-back-end)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- HTML/SCSS and JavaScript
+- React Framework, Redux, Redux Toolkit
+- Jest
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get a local copy up and running follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone this repository with git clone```git@github.com:JohnFTitor/hello-react-front-end.git``` using your terminal or command line.
+- Change to the project directory by entering : <br>
+```cd hello-react-front-end``` in the terminal
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You need to make sure to have installed the latest version of Node.js and npm on your computer.
 
-### `npm run eject`
+### Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can clone this repository or simply download the files as a .zip
+If you want to set up a personal repository based on this one, you can as well fork it.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+After clone it and before working on it, you have to run ```npm install``` so that all the dependencies of the project get downloaded in your pc locally.
+Such dependencies include React app and linters checks, for which you have to install the files following the ```wget``` commands inside linters.yml file.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Usage
 
-## Learn More
+You're free to use this project however you like it for educational purposes. Just keep in mind the acknowledgment described below
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To work on the project, run ```npm start``` in your terminal to deploy a live version of the development. This works in watch mode so it automatically reloads any need change you make to the files.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Run linters checks
 
-### Code Splitting
+Linter Checks are automatically run with Github actions when there's a pull request. If you want to run them locally, remember to have the config file in the root of the local project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Testing
 
-### Analyzing the Bundle Size
+Run ```npm test``` to check prepared test cases related to the website functionality simulating user interaction.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Authors
 
-### Making a Progressive Web App
+👤 **Andrés Felipe Arroyave Naranjo**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- GitHub: [@JohnFTitor](https://github.com/JohnFTitor)
+- Twitter: [@johnftitor](https://twitter.com/johnftitor)
+- LinkedIn: [Andres](https://www.linkedin.com/in/andresarroyavenaranjo/?locale=en_US)
 
-### Advanced Configuration
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Give a ⭐️ if you like this project!
 
-### Deployment
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
